@@ -2,7 +2,7 @@
 /*
  * MySQL
  */
-$con = mysqli_connect("ADRESSE IP", "UTILISATEUR", "MOT DE PASSE", "NOM DE LA BASE DE DONNÉES");
+$con = mysqli_connect("164.132.207.18", "u1798_4Nbm6cI0El", "y3wqdp97NrgUJqPWxm28ip18", "s1798_developpement");
 
 if (mysqli_connect_errno()) {
     die ("<font color=red>Erreur:</font> " . mysqli_connect_error());
